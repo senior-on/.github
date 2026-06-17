@@ -1,0 +1,36 @@
+name: 기능 개발
+description: 새로운 기능을 개발하거나 기존 기능을 확장하는 작업을 진행합니다.
+title: "[기능] "
+labels: ["feat"]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 기능 설명
+      description: 추가하려는 기능의 목표와 설명은 무엇인가요?
+      placeholder: 기능 추가가 필요한 이유와 기대 효과를 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 작업 범위
+      description: 어떤 상세 작업들이 이루어져야 하나요?
+      placeholder: 구현해야 할 구체적인 핵심 요구사항들을 나열해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 기준
+      description: 어떤 조건을 충족해야 개발이 완료되나요?
+      placeholder: 기능 작동 여부 검증 기준 또는 완료 조건을 나열해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 참고 사항
+      description: 참고할 수 있는 디자인 시안, API 문서 주소, 관련 기획 리소스 링크 등을 입력해 주세요.
+    validations:
+      required: false

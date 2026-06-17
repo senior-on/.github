@@ -1,0 +1,36 @@
+name: 코드 개선
+description: 코드 가독성 향상, 최적화, 구조 리팩토링 등 동작 변경이 없는 코드 개선 작업을 진행합니다.
+title: "[개선] "
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 개선 목적
+      description: 리팩토링을 하려는 대상 코드와 그 배경은 무엇인가요?
+      placeholder: 현재 구조의 한계점과 리팩토링으로 얻어지는 이점을 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 작업 범위
+      description: 어떤 컴포넌트나 코드 로직이 변경되나요?
+      placeholder: 리팩토링할 대상 영역과 상세 작업 항목을 나열해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 기준
+      description: 작업 완료 여부 및 기존 기능이 깨지지 않았는지 검증할 기준은 무엇인가요?
+      placeholder: 통과해야 하는 테스트 케이스 혹은 검증 방법을 나열해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 참고 사항
+      description: 관련된 기존 이슈 링크, 혹은 리팩토링 진행 방향에 대한 관련 아키텍처 문서를 남겨 주세요.
+    validations:
+      required: false

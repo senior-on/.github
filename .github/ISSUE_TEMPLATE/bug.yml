@@ -1,0 +1,28 @@
+name: 버그
+description: 결함이나 비정상 동작을 보고합니다.
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 요약
+      description: 어떤 문제가 발생했나요?
+      placeholder: 버그를 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: bug-detail
+    attributes:
+      label: 어떤 버그인가요?
+      description: 구체적으로 어떤 동작이 비정상적인지 설명해 주세요.
+      placeholder: 예상과 다르게 동작하는 부분을 작성해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 동작
+      description: 어떻게 동작해야 하나요?
+    validations:
+      required: true
