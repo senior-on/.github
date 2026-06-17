@@ -16,7 +16,7 @@ body:
     attributes:
       label: 작업 범위
       description: 구체적으로 어떤 설정 파일이나 스크립트를 변경하나요?
-      placeholder: 수정이 필요한 대상 파일(예: package.json, webpack, Dockerfile 등)과 작업 범위를 입력해 주세요.
+      placeholder: "수정이 필요한 대상 파일(예: package.json, webpack, Dockerfile 등)과 작업 범위를 입력해 주세요."
     validations:
       required: true
   - type: textarea

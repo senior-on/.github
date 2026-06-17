@@ -1,4 +1,4 @@
-name: 버그
+name: 버그 수정
 description: 결함이나 비정상 동작을 보고합니다.
 title: "[버그] "
 labels: ["bug"]
