@@ -24,7 +24,10 @@ body:
     attributes:
       label: 완료 기준
       description: 어떤 조건을 충족해야 개발이 완료되나요?
-      placeholder: 기능 작동 여부 검증 기준 또는 완료 조건을 나열해 주세요.
+      placeholder: |
+        - [ ] 사용자가 새 기능에 접근할 수 있다.
+        - [ ] 핵심 동작을 확인할 수 있다.
+        - [ ] `npm run check`가 통과한다.
     validations:
       required: true
   - type: textarea

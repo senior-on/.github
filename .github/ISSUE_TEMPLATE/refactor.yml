@@ -24,7 +24,10 @@ body:
     attributes:
       label: 완료 기준
       description: 작업 완료 여부 및 기존 기능이 깨지지 않았는지 검증할 기준은 무엇인가요?
-      placeholder: 통과해야 하는 테스트 케이스 혹은 검증 방법을 나열해 주세요.
+      placeholder: |
+        - [ ] 기존 기능이 동일하게 동작한다.
+        - [ ] 변경된 구조가 의도한 책임 분리를 만족한다.
+        - [ ] `npm run check`가 통과한다.
     validations:
       required: true
   - type: textarea
